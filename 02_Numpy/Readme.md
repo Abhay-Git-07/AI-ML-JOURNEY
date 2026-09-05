@@ -1,25 +1,28 @@
 # NumPy & Matplotlib Learning
 
-This folder contains my learning and practice notebooks focused on **NumPy** and some basic functions of **Matplotlib**, organized into different phases.
+This folder contains my learning and practice notebooks focused on **NumPy** and **Matplotlib**, organized into different phases.
+
+The goal of this section is to build a strong foundation in numerical computing, array manipulation, and data visualization using Python.
 
 ## 📁 Contents
 
-* `Phase_01.ipynb` — NumPy fundamentals and basic operations
-* `Phase_02.ipynb` — NumPy concepts and operations
-* `Phase_03.ipynb` — NumPy practice and visualization with Matplotlib
+| File | Description |
+|------|-------------|
+| `Phase_01.ipynb` | NumPy fundamentals and basic operations |
+| `Phase_02.ipynb` | NumPy concepts and array operations |
+| `Phase_03.ipynb` | NumPy practice and visualization with Matplotlib |
+| `Phase_04.ipynb` | Advanced NumPy practice and applications |
 
-## 🛠️ Requirements
+## 🛠️ Technologies & Libraries
 
-The notebooks use:
-
-* **Python**
-* **NumPy** — numerical computing and array operations
-* **Matplotlib** — data visualization and plotting
-* **Jupyter Notebook** — to run `.ipynb` files
-
-The virtual environment (`.venv`) is **not included** in this repository.
+- **Python** — Programming language
+- **NumPy** — Numerical computing and array operations
+- **Matplotlib** — Data visualization and plotting
+- **Jupyter Notebook** — Running and documenting the notebooks
 
 ## ⚙️ Setup
+
+The virtual environment (`.venv`) is **not included** in this repository.
 
 After cloning the repository, navigate to the project directory:
 
@@ -70,8 +73,65 @@ import numpy as np
 import matplotlib.pyplot as plt
 ```
 
+- NumPy is used for numerical operations, arrays, mathematical computations, and data manipulation.
+
+- Matplotlib is used for creating visualizations and displaying graphical representations of data.
+
+
+## 🧪 Example
+
+### Loading a NumPy array stored in a .npy file:
+
+```python
+import numpy as np
+
+logo = np.load("numpy_logo.npy")
+```
+
+### Displaying the array as an image:
+
+```python
+import matplotlib.pyplot as plt
+
+plt.imshow(logo)
+plt.axis("off")
+plt.show()
+```
+
+### Creating an inverted version:
+
+```python
+dark_logo = 1 - logo
+
+plt.imshow(dark_logo)
+plt.axis("off")
+plt.show()
+```
+
+This demonstrates how NumPy arrays can be manipulated mathematically and visualized using Matplotlib.
+
+## 📚 Learning Progress
+ - NumPy Fundamentals
+ - NumPy Array Operations
+ - NumPy Mathematical Operations
+ - NumPy Practice
+ - Matplotlib Basics
+ - Working with Image Arrays
+ - .npy File Handling
+ - Array Manipulation & Visualization
+ - Phase 1
+ - Phase 2
+ - Phase 3
+ - Phase 4
+
 ## 📝 Note
 
-The `.venv` directory is intentionally excluded from the repository.
+- The .venv directory is intentionally excluded from this repository.
 
-Anyone cloning this project should create their own virtual environment and install the required dependencies locally.
+- Virtual environments are machine-specific, so anyone cloning this project should create their own environment and install the required dependencies locally.
+
+## 🚀 AIML Journey
+
+This NumPy section is part of my AIML Journey, where I am building my skills step-by-step in Python, data analysis, and machine learning.
+
+NumPy — Completed ✅
