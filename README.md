@@ -18,55 +18,55 @@ The goal is simple:
 
 Topics covered:
 
-* Python Basics
-* Variables & Data Types
-* Operators
-* Conditional Statements
-* Loops
-* Iteration Tools
-* Functions
-* Scope
-* Object-Oriented Programming
-* Error Handling
-* File Handling
-* Database Basics — SQLite
-* API Handling
+- Python Basics
+- Variables & Data Types
+- Operators
+- Conditional Statements
+- Loops
+- Iteration Tools
+- Functions
+- Scope
+- Object-Oriented Programming
+- Error Handling
+- File Handling
+- Database Basics — SQLite
+- API Handling
 
 ### 🛠️ Projects Completed
 
-* Number Guessing Game
-* Calculator Application
-* Password Generator
-* File Organizer
-* Task Manager CLI
-* Weather Application
-* Bank Account System
-* Library Management System
+- Number Guessing Game
+- Calculator Application
+- Password Generator
+- File Organizer
+- Task Manager CLI
+- Weather Application
+- Bank Account System
+- Library Management System
 
 ---
 
-### 🔄 02 - NumPy
+### ✅ 02 - NumPy
 
-**Status: In Progress — Phase 4 Completed**
+**Status: Completed**
 
-NumPy is the first major step into **numerical computing and data science**.
+NumPy was the first major step into **numerical computing and data science**.
 
 ### 📚 Topics Covered
 
-* NumPy Arrays
-* Array Creation
-* Array Properties
-* Indexing & Slicing
-* Array Operations
-* Mathematical Operations
-* Broadcasting
-* Reshaping Arrays
-* Working with Numerical Data
-* NumPy and Image Arrays
-* Saving & Loading `.npy` Files
-* Introduction to Matplotlib
-* Visualizing NumPy Arrays
-* Working with Jupyter Notebooks
+- NumPy Arrays
+- Array Creation
+- Array Properties
+- Indexing & Slicing
+- Array Operations
+- Mathematical Operations
+- Broadcasting
+- Reshaping Arrays
+- Working with Numerical Data
+- NumPy and Image Arrays
+- Saving & Loading `.npy` Files
+- Introduction to Matplotlib
+- Visualizing NumPy Arrays
+- Working with Jupyter Notebooks
 
 ### 📓 Learning Phases
 
@@ -77,9 +77,9 @@ Phase 03 ✅
 Phase 04 ✅
 ```
 
-### 📂 Current Structure
+### 📂 Structure
 
-```bash
+```text
 02_Numpy/
 
 ├── Phase_01.ipynb
@@ -89,43 +89,59 @@ Phase 04 ✅
 └── README.md
 ```
 
-### 🚧 Next
-
-* Continue NumPy
-* More numerical-data practice
-* NumPy-based mini projects
-* Prepare for Pandas
-
 ---
 
-### ⏳ 03 - Pandas
+### ✅ 03 - Pandas
 
-**Status: Upcoming**
+**Status: Completed**
 
-Planned topics:
+Pandas introduced the next step in the journey: **working with structured data, data analysis, and data cleaning**.
 
-* Series
-* DataFrames
-* Data Selection
-* Data Cleaning
-* Data Manipulation
-* Data Analysis
-* CSV Handling
-* Working with Real-World Datasets
+### 📚 Topics Covered
+
+- Pandas Basics
+- Series
+- DataFrames
+- Data Selection
+- Data Filtering
+- Data Manipulation
+- Data Analysis
+- CSV Handling
+- GroupBy & Aggregation
+- Combining Data
+- Handling Missing Values
+- Handling Duplicate Data
+- Data Cleaning
+- Working with Datasets
+
+### 📂 Structure
+
+```text
+03_Pandas/
+
+├── 01_pandas.ipynb
+├── 02_pandas.ipynb
+├── 03_pandas.ipynb
+├── 04_pandas.ipynb
+├── 05_pandas.ipynb
+├── data.csv
+└── README.md
+```
 
 ---
 
 ### ⏳ 04 - Data Visualization
 
-**Status: Upcoming**
+**Status: Next**
 
 Planned topics:
 
-* Matplotlib
-* Seaborn
-* Charts & Graphs
-* Statistical Visualization
-* Data Storytelling
+- Matplotlib
+- Seaborn
+- Charts & Graphs
+- Statistical Visualization
+- Data Storytelling
+- Exploratory Data Analysis (EDA)
 
 ---
 
@@ -135,17 +151,17 @@ Planned topics:
 
 Planned topics:
 
-* Machine Learning Fundamentals
-* Supervised Learning
-* Unsupervised Learning
-* Regression
-* Classification
-* Clustering
-* Model Training
-* Model Evaluation
-* Feature Engineering
-* Scikit-Learn
-* ML Projects
+- Machine Learning Fundamentals
+- Supervised Learning
+- Unsupervised Learning
+- Regression
+- Classification
+- Clustering
+- Model Training
+- Model Evaluation
+- Feature Engineering
+- Scikit-Learn
+- ML Projects
 
 ---
 
@@ -155,13 +171,13 @@ Planned topics:
 
 Future topics:
 
-* AI Fundamentals
-* Neural Networks
-* Deep Learning
-* Computer Vision
-* Natural Language Processing
-* Generative AI
-* AI Projects
+- AI Fundamentals
+- Neural Networks
+- Deep Learning
+- Computer Vision
+- Natural Language Processing
+- Generative AI
+- AI Projects
 
 ---
 
@@ -169,28 +185,28 @@ Future topics:
 
 ### Currently Using
 
-* Python
-* Git & GitHub
-* VS Code
-* Jupyter Notebook
-* SQLite
-* APIs
-* NumPy
-* Matplotlib
+- Python
+- Git & GitHub
+- VS Code
+- Jupyter Notebook
+- SQLite
+- APIs
+- NumPy
+- Pandas
+- Matplotlib
 
 ### Coming Next
 
-* Pandas
-* Seaborn
-* Scikit-Learn
-* Machine Learning Libraries
-* Deep Learning Frameworks
+- Seaborn
+- Scikit-Learn
+- Machine Learning Libraries
+- Deep Learning Frameworks
 
 ---
 
 ## 📂 Repository Structure
 
-```bash
+```text
 AI-ML-Journey/
 
 │
@@ -216,10 +232,15 @@ This repository is a record of my growth as I move step-by-step from **programmi
 ### My Focus
 
 ✔ Understand concepts deeply
+
 ✔ Practice implementation
+
 ✔ Write clean and understandable code
+
 ✔ Build practical projects
+
 ✔ Improve problem-solving skills
+
 ✔ Track my progress consistently
 
 ---
@@ -228,14 +249,19 @@ This repository is a record of my growth as I move step-by-step from **programmi
 
 ```text
 Python Foundations       ██████████ 100%
-NumPy                    ████░░░░░░  40%
-Pandas                   ░░░░░░░░░░   0%
+
+NumPy                    ██████████ 100%
+
+Pandas                   ██████████ 100%
+
 Data Visualization       ░░░░░░░░░░   0%
+
 Machine Learning         ░░░░░░░░░░   0%
+
 Artificial Intelligence  ░░░░░░░░░░   0%
 ```
 
-> **Current Focus:** NumPy — Building a strong foundation in numerical computing and data handling.
+> **Current Focus:** Data Visualization — Building a strong foundation in visualizing and understanding data.
 
 ---
 
@@ -249,9 +275,15 @@ Built a strong foundation in Python programming, including programming fundament
 
 ### NumPy
 
-**Phase 1 → Phase 4 ✅**
+**Completed ✅**
 
-Currently developing an understanding of numerical computing, arrays, array manipulation, mathematical operations, broadcasting, and working with image data using NumPy.
+Developed an understanding of numerical computing, arrays, array manipulation, mathematical operations, broadcasting, and working with image data using NumPy.
+
+### Pandas
+
+**Completed ✅**
+
+Learned how to work with structured datasets using Pandas, including DataFrames, data manipulation, analysis, CSV handling, and data cleaning.
 
 ---
 
@@ -262,7 +294,9 @@ The journey continues with:
 **NumPy → Pandas → Data Visualization → Machine Learning → Artificial Intelligence**
 
 One concept at a time.
+
 One project at a time.
+
 One step closer to becoming an **AI/ML Developer**.
 
 ---
